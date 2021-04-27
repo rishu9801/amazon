@@ -1,0 +1,482 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-transform: capitalize;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: #eaeded !important;
+}
+
+.navbar {
+  background-color: #131921;
+}
+
+.navbar h5 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.navbar h6 {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.navbar p {
+  font-size: 1rem;
+  text-transform: lowercase;
+  padding-left: 6.75rem;
+}
+
+.logo1 {
+  display: inline-block;
+  width: 110px;
+  height: 30px;
+  background: url(img/nav-sprite-global-1x-hm-dsk-reorg-_CB405936311_.png) 0px -50px;
+}
+
+.logo2 {
+  display: inline-block;
+  position: absolute;
+  left: 90px;
+  top: 29px;
+  width: 50px;
+  height: 18px;
+  background: url(img/nav-sprite-global-1x-hm-dsk-reorg-_CB405936311_.png) -160px -50px;
+}
+
+.location-icon {
+  display: inline-block;
+  background: url(img/nav-sprite-global-1x-hm-dsk-reorg-_CB405936311_.png);
+  background-position: -71px -378px;
+  width: 15px;
+  height: 18px;
+}
+
+.search {
+  width: 60%;
+}
+
+.categories {
+  background-color: #f3f3f3 !important;
+  border: transparent;
+  border-radius: 4px 0 0 4px !important;
+  font-size: 0.875rem;
+}
+
+.search-bar {
+  width: 100%;
+  border: 1px solid transparent;
+}
+
+.search-btn {
+  padding: 0.45rem 0;
+  width: 2.5rem;
+  border: 1px solid transparent;
+  border-radius: 0px 3px 3px 0px;
+  background: #f3a847 url(img/sea.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cart-icon {
+  display: inline-block;
+  background: url(img/nav-sprite-global-1x-hm-dsk-reorg-_CB405936311_.png);
+  background-position: -10px -340px;
+  width: 2.5rem;
+  height: 1.75rem;
+}
+
+.nav {
+  background-color: #232f3e;
+  color: #fff;
+}
+
+.left ul > li {
+  padding: 0 0.5rem;
+  list-style: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.banner {
+  width: 80% !important;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  top: -25rem !important;
+}
+
+.card-container {
+  margin-top: -20rem;
+}
+
+.card {
+  width: 23%;
+  padding: 1rem 0;
+  border: transparent !important;
+  border-radius: 0 !important;
+}
+
+.card span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.card h4 {
+  display: inline-block;
+  padding: 0 1rem;
+  font-size: 1.25rem;
+}
+
+.card h4 p {
+  font-size: 0.75rem;
+  font-weight: normal;
+}
+
+.card h5 {
+  font-size: 0.8125rem;
+  padding: 1rem 0;
+}
+
+.card a {
+  color: #007185;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.card a:hover {
+  color: #c7511f;
+  text-decoration: underline;
+}
+
+.card-content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.links div {
+  width: 50%;
+}
+
+.links div img {
+  width: 100%;
+  padding: 2px;
+}
+
+.links div p {
+  font-size: 0.75rem;
+}
+
+.card4 p {
+  font-size: 0.8rem;
+  padding: 0.5rem 0;
+  margin: 0;
+}
+
+.container2 {
+  width: 80%;
+  margin-top: 1rem;
+}
+
+.container2 a {
+  color: #007185;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.container2 a:hover {
+  color: #c7511f;
+  text-decoration: underline;
+}
+
+.container3,
+.container4 {
+  width: 80%;
+}
+
+.container3 h4,
+.container4 h4 {
+  display: inline;
+}
+
+.container3 a,
+.container4 a {
+  display: inline;
+  color: #007185;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0 0.5rem;
+}
+
+.container3 a:hover,
+.container4 a:hover {
+  color: #c7511f;
+  text-decoration: underline;
+}
+
+.container3 .slider,
+.container4 .slider {
+  width: 90%;
+  margin: auto;
+}
+
+.container3 .slider .slick-next:before,
+.container3 .slider .slick-prev:before,
+.container4 .slider .slick-next:before,
+.container4 .slider .slick-prev:before {
+  font-family: "fontawesome";
+  font-size: 2.5rem;
+  color: #646464;
+}
+
+.container3 .slider .slick-next:before,
+.container4 .slider .slick-next:before {
+  content: "\f105";
+}
+
+.container3 .slider .slick-prev:before,
+.container4 .slider .slick-prev:before {
+  content: "\f104";
+}
+
+.container3 .slick-dots,
+.container4 .slick-dots {
+  display: none !important;
+}
+
+.container3 .deals img,
+.container4 .deals img {
+  width: 100%;
+}
+
+.container5 {
+  width: 80%;
+  margin: auto;
+}
+
+.container5 .home {
+  width: 70%;
+  margin: auto;
+}
+
+.container6 h4 {
+  display: inline;
+}
+
+.container6 a {
+  display: inline;
+  color: #007185;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0 0.5rem;
+}
+
+.container6 a:hover {
+  color: #c7511f;
+  text-decoration: underline;
+}
+
+.container6 .slider1 {
+  width: 95%;
+  margin: 1rem auto;
+}
+
+.container6 .slick-next {
+  right: 1rem !important;
+}
+
+.container6 .slick-prev {
+  left: -2.25rem !important;
+}
+
+.container6 .slick-next:before,
+.container6 .slick-prev:before {
+  font-family: "fontawesome";
+  font-size: 2.5rem;
+  color: #646464;
+}
+
+.container6 .slick-next:before {
+  content: "\f105";
+}
+
+.container6 .slick-prev:before {
+  content: "\f104";
+}
+
+.container6 .slick-dots {
+  display: none !important;
+}
+
+.top {
+  background-color: #2e435c;
+}
+
+.top a {
+  font-size: 0.85rem;
+}
+
+.footer1 {
+  background: #232f3e;
+}
+
+.footer1 .container7 {
+  width: 60%;
+  margin: auto;
+}
+
+.footer1 .container7 li {
+  color: #dddddd;
+  padding-bottom: 0.65rem;
+  font-size: 14px;
+}
+
+.footer1 .container7 div :first-child {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+
+.footer1 .lang img {
+  padding-right: 0.25rem;
+}
+
+.footer1 .lang button {
+  background: transparent;
+  border: 1px solid #8d9096;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.footer1 hr {
+  margin-top: 2.5rem !important;
+  background-color: #3a4553 !important;
+  height: 2px !important;
+  opacity: 0.85 !important;
+}
+
+.footer1 .footer-brand {
+  color: white;
+  width: 15%;
+  margin: auto;
+}
+
+.footer1 .f-brand {
+  width: 4.75rem;
+  height: 1.5rem;
+  background: url(img/nav-sprite-global-1x-hm-dsk-reorg-_CB405936311_.png) -10px -90px;
+}
+
+.footer1 .countries {
+  width: 60%;
+  margin: auto;
+}
+
+.footer1 .countries li {
+  font-size: 12px;
+  color: #dddddd;
+  padding: 0 0.25rem;
+}
+
+.footer2 {
+  background: #131a22;
+}
+
+.footer2 .container8 {
+  width: 60%;
+  margin: auto;
+}
+
+.footer2 .container8 div {
+  width: 20%;
+  padding: 1rem;
+}
+
+.footer2 .container8 li {
+  color: #999999;
+  font-size: 10px;
+}
+
+.footer2 .container8 div :first-child {
+  color: #dddddd;
+  font-size: 11px;
+}
+
+.footer2 .copyright {
+  width: 40%;
+  margin: auto;
+  font-size: 12px;
+  color: #dddddd;
+}
+
+@media (max-width: 1700px) {
+  .card-container {
+    margin-top: -18rem;
+  }
+  .card4 {
+    font-size: 0.75rem;
+  }
+  .search {
+    width: 55%;
+  }
+  .hide1 {
+    display: none;
+  }
+}
+
+@media (max-width: 1500px) {
+  .card-container {
+    margin-top: -15.5rem;
+  }
+  .search {
+    width: 50%;
+  }
+  .hide2 {
+    display: none;
+  }
+}
+
+@media (max-width: 1300px) {
+  .card-container {
+    margin-top: -13.5rem;
+  }
+  .card4 {
+    font-size: 0.65;
+  }
+  .search {
+    width: 45;
+  }
+  .hide3 {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .card-container {
+    margin-top: -11rem;
+  }
+  .search {
+    width: 40%;
+  }
+  .hide4,
+  .hide5 {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
